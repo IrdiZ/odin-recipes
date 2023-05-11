@@ -2,14 +2,35 @@ body {
     background-color: blanchedalmond;
 }
 
+h1 {
+    color: teal;
+}
+
 ul {
+    padding: 0;
     display: table;
     margin: 0 auto;
+    list-style: none;   
+    font-size: 200%;
+    list-style-position: inside;
+    line-height: 200%;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+.recipe {
+    font-size: 150%;
+    color: teal;
+    font-weight: bold;
 }
 
 #dog {
     height: 250px;
     width: 250px;
+    border-style: groove;
 }
 
 .container {
@@ -17,5 +38,5 @@ ul {
 }
 
 li {
-    list-style: inside;
+    color: black;
 }
