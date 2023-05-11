@@ -1,0 +1,21 @@
+body {
+    background-color: blanchedalmond;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+#dog {
+    height: 250px;
+    width: 250px;
+}
+
+.container {
+    text-align: center;
+}
+
+li {
+    list-style: inside;
+}
