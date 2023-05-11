@@ -16,6 +16,16 @@ ul {
     line-height: 200%;
 }
 
+ol {
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    list-style: none;   
+    font-size: 200%;
+    list-style-position: inside;
+    line-height: 200%;
+}
+
 a {
     color: brown;
     text-decoration: none;
@@ -27,9 +37,32 @@ a {
     font-weight: bold;
 }
 
+.french, .bellini, .benedict {
+    color: brown;
+    text-decoration-line: underline;
+}
+
 #dog {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
+    border-style: groove;
+}
+
+#toast {
+    height: 350px;
+    width: 500px;
+    border-style: groove;
+}
+
+#bellini {
+    height: 300px;
+    width: 350px;
+    border-style: groove;
+}
+
+#benedict {
+    height: 400px;
+    width: 450px;
     border-style: groove;
 }
 
@@ -39,4 +72,44 @@ a {
 
 li {
     color: black;
+}
+
+.Ingredients > li, .Steps > li{
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+}
+
+.miniheader {
+    color: teal;
+}
+
+.description{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.button {
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+    border-style: groove;
+    padding: 4px;
+}
+
+.topbar {
+    text-align: left;
+    font-size: 25px;
+}
+
+.backbutton {
+    font-size: 30px;
+    padding: 5px;
+    padding-bottom: 5px;
+    background-color: blanchedalmond;
+    font-weight: 300;
+}
+
+.backbutton.small {
+    font-size: 20px;
 }
